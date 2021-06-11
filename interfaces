@@ -1,0 +1,24 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+source /etc/network/interfaces.d/*
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# Interface vers PFsense
+allow-hotplug ens18
+iface ens18 inet static
+	address 192.168.20.10/24
+	gateway 192.168.20.254
+	# dns-* options are implemented by the resolvconf package, if installed
+	dns-nameservers 8.8.8.8
+	dns-search groupe3.loc
+
+
+# Interface vers serveur Web
+allow-hotplug ens19
+iface ens19 inet static
+	address 192.168.20.30/24
+	gateway 192.168.20.254
