@@ -15,3 +15,4 @@ iface ens18 inet static
 	# dns-* options are implemented by the resolvconf package, if installed
 	dns-nameservers 8.8.8.8
 	dns-search groupe3.loc
+	
