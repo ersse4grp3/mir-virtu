@@ -1,0 +1,227 @@
+Jun 10 14:07:55 DNS named[336]: resolver priming query complete
+Jun 10 14:07:55 DNS rsyslogd: action 'action-13-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.1901.0 try https://www.rsyslog.com/e/2359 ]
+Jun 10 14:07:56 DNS systemd-timesyncd[284]: Synchronized to time server for the first time 163.237.218.19:123 (2.debian.pool.ntp.org).
+Jun 10 14:08:14 DNS named[336]: resolver priming query complete
+Jun 10 14:17:01 DNS CRON[359]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 10 14:17:01 DNS CRON[360]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 10 14:17:01 DNS CRON[359]: pam_unix(cron:session): session closed for user root
+Jun 10 14:23:04 DNS systemd[1]: Starting Cleanup of Temporary Directories...
+Jun 10 14:23:04 DNS systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Jun 10 14:23:04 DNS systemd[1]: Started Cleanup of Temporary Directories.
+Jun 10 15:15:25 DNS named[336]: resolver priming query complete
+Jun 10 15:15:25 DNS rsyslogd: omfwd: TCPSendBuf error -2027, destruct TCP Connection to 192.168.10.50:514 [v8.1901.0 try https://www.rsyslog.com/e/2027 ]
+Jun 10 15:15:25 DNS rsyslogd: action 'action-13-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.1901.0 try https://www.rsyslog.com/e/2007 ]
+Jun 10 15:15:25 DNS rsyslogd: action 'action-13-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.1901.0 try https://www.rsyslog.com/e/2359 ]
+Jun 10 15:17:01 DNS CRON[402]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 10 15:17:01 DNS CRON[403]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 10 15:17:01 DNS CRON[402]: pam_unix(cron:session): session closed for user root
+Jun 10 15:46:52 DNS named[336]: resolver priming query complete
+Jun 10 16:17:01 DNS CRON[417]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 10 16:17:01 DNS CRON[418]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 10 16:17:01 DNS CRON[417]: pam_unix(cron:session): session closed for user root
+Jun 10 17:17:01 DNS CRON[432]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 10 17:17:01 DNS CRON[433]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 10 17:17:01 DNS CRON[432]: pam_unix(cron:session): session closed for user root
+Jun 10 18:17:01 DNS CRON[448]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 10 18:17:01 DNS rsyslogd: omfwd: TCPSendBuf error -2027, destruct TCP Connection to 192.168.10.50:514 [v8.1901.0 try https://www.rsyslog.com/e/2027 ]
+Jun 10 18:17:01 DNS rsyslogd: action 'action-13-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.1901.0 try https://www.rsyslog.com/e/2007 ]
+Jun 10 18:17:01 DNS rsyslogd: action 'action-13-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.1901.0 try https://www.rsyslog.com/e/2359 ]
+Jun 10 18:17:01 DNS CRON[447]: pam_unix(cron:session): session closed for user root
+Jun 10 18:56:40 DNS systemd[1]: Starting Daily apt download activities...
+Jun 10 18:56:41 DNS systemd[1]: apt-daily.service: Succeeded.
+Jun 10 18:56:41 DNS systemd[1]: Started Daily apt download activities.
+Jun 10 19:17:01 DNS CRON[521]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 10 19:17:01 DNS CRON[522]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 10 19:17:01 DNS CRON[521]: pam_unix(cron:session): session closed for user root
+Jun 10 20:17:01 DNS CRON[536]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 10 20:17:01 DNS CRON[537]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 10 20:17:01 DNS CRON[536]: pam_unix(cron:session): session closed for user root
+Jun 10 21:17:01 DNS CRON[550]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 10 21:17:01 DNS CRON[551]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 10 21:17:01 DNS CRON[550]: pam_unix(cron:session): session closed for user root
+Jun 10 22:17:01 DNS CRON[565]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 10 22:17:01 DNS CRON[566]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 10 22:17:01 DNS CRON[565]: pam_unix(cron:session): session closed for user root
+Jun 10 23:17:01 DNS CRON[579]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 10 23:17:01 DNS CRON[580]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 10 23:17:01 DNS CRON[579]: pam_unix(cron:session): session closed for user root
+Jun 11 00:00:04 DNS systemd[1]: Starting Rotate log files...
+Jun 11 00:00:04 DNS systemd[1]: Starting Daily man-db regeneration...
+Jun 11 00:00:04 DNS rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="295" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Jun 11 00:00:04 DNS systemd[1]: logrotate.service: Succeeded.
+Jun 11 00:00:04 DNS systemd[1]: Started Rotate log files.
+Jun 11 00:00:04 DNS systemd[1]: man-db.service: Succeeded.
+Jun 11 00:00:04 DNS systemd[1]: Started Daily man-db regeneration.
+Jun 11 00:17:01 DNS CRON[604]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 00:17:01 DNS CRON[605]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 00:17:01 DNS CRON[604]: pam_unix(cron:session): session closed for user root
+Jun 11 01:17:01 DNS CRON[619]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 01:17:01 DNS CRON[620]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 01:17:01 DNS CRON[619]: pam_unix(cron:session): session closed for user root
+Jun 11 02:17:01 DNS CRON[633]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 02:17:01 DNS CRON[634]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 02:17:01 DNS CRON[633]: pam_unix(cron:session): session closed for user root
+Jun 11 03:17:01 DNS CRON[648]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 03:17:01 DNS CRON[649]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 03:17:01 DNS CRON[648]: pam_unix(cron:session): session closed for user root
+Jun 11 04:17:01 DNS CRON[662]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 04:17:01 DNS CRON[663]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 04:17:01 DNS CRON[662]: pam_unix(cron:session): session closed for user root
+Jun 11 05:17:01 DNS CRON[677]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 05:17:01 DNS CRON[678]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 05:17:01 DNS CRON[677]: pam_unix(cron:session): session closed for user root
+Jun 11 06:17:01 DNS CRON[691]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 06:17:01 DNS CRON[692]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 06:17:01 DNS CRON[691]: pam_unix(cron:session): session closed for user root
+Jun 11 06:22:40 DNS systemd[1]: Starting Daily apt upgrade and clean activities...
+Jun 11 06:22:41 DNS systemd[1]: apt-daily-upgrade.service: Succeeded.
+Jun 11 06:22:41 DNS systemd[1]: Started Daily apt upgrade and clean activities.
+Jun 11 06:25:01 DNS CRON[744]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 06:25:01 DNS CRON[745]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Jun 11 06:25:01 DNS CRON[744]: pam_unix(cron:session): session closed for user root
+Jun 11 07:17:01 DNS CRON[805]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 07:17:01 DNS CRON[806]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 07:17:01 DNS CRON[805]: pam_unix(cron:session): session closed for user root
+Jun 11 08:17:01 DNS CRON[820]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 08:17:01 DNS CRON[821]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 08:17:01 DNS CRON[820]: pam_unix(cron:session): session closed for user root
+Jun 11 09:17:01 DNS CRON[834]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 09:17:01 DNS CRON[835]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 09:17:02 DNS CRON[834]: pam_unix(cron:session): session closed for user root
+Jun 11 09:47:27 DNS named[336]: resolver priming query complete
+Jun 11 10:17:01 DNS CRON[949]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 10:17:01 DNS rsyslogd: omfwd: TCPSendBuf error -2027, destruct TCP Connection to 192.168.10.50:514 [v8.1901.0 try https://www.rsyslog.com/e/2027 ]
+Jun 11 10:17:01 DNS rsyslogd: action 'action-13-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.1901.0 try https://www.rsyslog.com/e/2007 ]
+Jun 11 10:17:01 DNS rsyslogd: action 'action-13-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.1901.0 try https://www.rsyslog.com/e/2359 ]
+Jun 11 10:17:01 DNS CRON[948]: pam_unix(cron:session): session closed for user root
+Jun 11 11:17:01 DNS CRON[962]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 11:17:01 DNS CRON[963]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 11:17:01 DNS CRON[962]: pam_unix(cron:session): session closed for user root
+Jun 11 11:27:37 DNS su: (to root) root on tty1
+Jun 11 11:27:37 DNS su: pam_unix(su:session): session opened for user root by root(uid=0)
+Jun 11 11:29:40 DNS systemd[1]: Starting Daily apt download activities...
+Jun 11 11:29:41 DNS systemd[1]: apt-daily.service: Succeeded.
+Jun 11 11:29:41 DNS systemd[1]: Started Daily apt download activities.
+Jun 11 12:17:01 DNS CRON[1028]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 12:17:01 DNS CRON[1029]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 12:17:01 DNS CRON[1028]: pam_unix(cron:session): session closed for user root
+Jun 11 12:48:24 DNS named[336]: resolver priming query complete
+Jun 11 12:48:25 DNS named[336]: network unreachable resolving '_http._tcp.deb.debian.org/SRV/IN': 2001:500:2::c#53
+Jun 11 12:48:25 DNS named[336]: network unreachable resolving '_http._tcp.deb.debian.org/SRV/IN': 2001:500:200::b#53
+Jun 11 12:48:25 DNS named[336]: network unreachable resolving '_http._tcp.deb.debian.org/SRV/IN': 2001:500:2f::f#53
+Jun 11 12:48:25 DNS named[336]: network unreachable resolving '_http._tcp.deb.debian.org/SRV/IN': 2001:dc3::35#53
+Jun 11 12:48:25 DNS named[336]: network unreachable resolving '_http._tcp.deb.debian.org/SRV/IN': 2001:503:ba3e::2:30#53
+Jun 11 12:48:25 DNS named[336]: network unreachable resolving '_http._tcp.deb.debian.org/SRV/IN': 2001:500:a8::e#53
+Jun 11 12:48:25 DNS named[336]: network unreachable resolving '_http._tcp.deb.debian.org/SRV/IN': 2001:500:9f::42#53
+Jun 11 12:48:25 DNS named[336]: network unreachable resolving '_http._tcp.deb.debian.org/SRV/IN': 2001:500:2d::d#53
+Jun 11 12:48:25 DNS named[336]: network unreachable resolving '_http._tcp.deb.debian.org/SRV/IN': 2001:500:12::d0d#53
+Jun 11 12:48:25 DNS named[336]: network unreachable resolving '_http._tcp.deb.debian.org/SRV/IN': 2001:7fd::1#53
+Jun 11 12:48:25 DNS named[336]: network unreachable resolving '_http._tcp.deb.debian.org/SRV/IN': 2001:503:c27::2:30#53
+Jun 11 12:48:25 DNS named[336]: network unreachable resolving '_http._tcp.deb.debian.org/SRV/IN': 2001:500:1::53#53
+Jun 11 12:48:25 DNS named[336]: network unreachable resolving '_http._tcp.deb.debian.org/SRV/IN': 2001:7fe::53#53
+Jun 11 12:48:25 DNS named[336]: resolver priming query complete
+Jun 11 12:48:27 DNS useradd[1218]: new user: name=sshd, UID=106, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin
+Jun 11 12:48:27 DNS usermod[1224]: change user 'sshd' password
+Jun 11 12:48:27 DNS chage[1229]: changed password expiry for sshd
+Jun 11 12:48:27 DNS systemd[1]: Reloading.
+Jun 11 12:48:27 DNS systemd[1]: getty@tty1.service: Current command vanished from the unit file, execution of the command list won't be resumed.
+Jun 11 12:48:27 DNS systemd[1]: Reloading.
+Jun 11 12:48:27 DNS systemd[1]: Reloading.
+Jun 11 12:48:27 DNS systemd[1]: Reloading.
+Jun 11 12:48:28 DNS systemd[1]: Starting OpenBSD Secure Shell server...
+Jun 11 12:48:28 DNS sshd[1320]: Server listening on 0.0.0.0 port 22.
+Jun 11 12:48:28 DNS sshd[1320]: Server listening on :: port 22.
+Jun 11 12:48:28 DNS systemd[1]: Started OpenBSD Secure Shell server.
+Jun 11 12:48:28 DNS systemd[1]: Reloading.
+Jun 11 12:48:41 DNS named[336]: resolver priming query complete
+Jun 11 12:49:47 DNS sshd[1608]: Accepted password for debdns from 192.168.10.42 port 33650 ssh2
+Jun 11 12:49:47 DNS sshd[1608]: pam_unix(sshd:session): session opened for user debdns by (uid=0)
+Jun 11 12:49:47 DNS systemd-logind[298]: New session 27 of user debdns.
+Jun 11 12:49:47 DNS systemd[1]: Created slice User Slice of UID 1000.
+Jun 11 12:49:47 DNS systemd[1]: Starting User Runtime Directory /run/user/1000...
+Jun 11 12:49:47 DNS systemd[1]: Started User Runtime Directory /run/user/1000.
+Jun 11 12:49:47 DNS systemd[1]: Starting User Manager for UID 1000...
+Jun 11 12:49:47 DNS systemd: pam_unix(systemd-user:session): session opened for user debdns by (uid=0)
+Jun 11 12:49:47 DNS systemd[1611]: Reached target Paths.
+Jun 11 12:49:47 DNS systemd[1611]: Reached target Timers.
+Jun 11 12:49:47 DNS systemd[1611]: Reached target Sockets.
+Jun 11 12:49:47 DNS systemd[1611]: Reached target Basic System.
+Jun 11 12:49:47 DNS systemd[1]: Started User Manager for UID 1000.
+Jun 11 12:49:47 DNS systemd[1]: Started Session 27 of user debdns.
+Jun 11 12:49:47 DNS systemd[1611]: Reached target Default.
+Jun 11 12:49:47 DNS systemd[1611]: Startup finished in 30ms.
+Jun 11 12:54:12 DNS sshd[1620]: Received disconnect from 192.168.10.42 port 33650:11: disconnected by user
+Jun 11 12:54:12 DNS sshd[1620]: Disconnected from user debdns 192.168.10.42 port 33650
+Jun 11 12:54:12 DNS sshd[1608]: pam_unix(sshd:session): session closed for user debdns
+Jun 11 12:54:12 DNS systemd-logind[298]: Session 27 logged out. Waiting for processes to exit.
+Jun 11 12:54:12 DNS systemd[1]: session-27.scope: Succeeded.
+Jun 11 12:54:12 DNS systemd-logind[298]: Removed session 27.
+Jun 11 12:54:22 DNS systemd[1]: Stopping User Manager for UID 1000...
+Jun 11 12:54:22 DNS systemd[1611]: Stopped target Default.
+Jun 11 12:54:22 DNS systemd[1611]: Stopped target Basic System.
+Jun 11 12:54:22 DNS systemd[1611]: Stopped target Paths.
+Jun 11 12:54:22 DNS systemd[1611]: Stopped target Timers.
+Jun 11 12:54:22 DNS systemd[1611]: Stopped target Sockets.
+Jun 11 12:54:22 DNS systemd[1611]: Reached target Shutdown.
+Jun 11 12:54:22 DNS systemd[1611]: systemd-exit.service: Succeeded.
+Jun 11 12:54:22 DNS systemd[1611]: Started Exit the Session.
+Jun 11 12:54:22 DNS systemd[1611]: Reached target Exit the Session.
+Jun 11 12:54:22 DNS systemd: pam_unix(systemd-user:session): session closed for user debdns
+Jun 11 12:54:22 DNS systemd[1]: user@1000.service: Succeeded.
+Jun 11 12:54:22 DNS systemd[1]: Stopped User Manager for UID 1000.
+Jun 11 12:54:22 DNS systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Jun 11 12:54:22 DNS systemd[347]: run-user-1000.mount: Succeeded.
+Jun 11 12:54:22 DNS systemd[1]: run-user-1000.mount: Succeeded.
+Jun 11 12:54:22 DNS systemd[1]: user-runtime-dir@1000.service: Succeeded.
+Jun 11 12:54:22 DNS systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Jun 11 12:54:22 DNS systemd[1]: Removed slice User Slice of UID 1000.
+Jun 11 13:09:55 DNS sshd[1631]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.10.200  user=debdns
+Jun 11 13:09:57 DNS sshd[1631]: Failed password for debdns from 192.168.10.200 port 53418 ssh2
+Jun 11 13:10:07 DNS sshd[1631]: Failed password for debdns from 192.168.10.200 port 53418 ssh2
+Jun 11 13:10:19 DNS sshd[1631]: Accepted password for debdns from 192.168.10.200 port 53418 ssh2
+Jun 11 13:10:19 DNS sshd[1631]: pam_unix(sshd:session): session opened for user debdns by (uid=0)
+Jun 11 13:10:19 DNS systemd-logind[298]: New session 29 of user debdns.
+Jun 11 13:10:19 DNS systemd[1]: Created slice User Slice of UID 1000.
+Jun 11 13:10:19 DNS systemd[1]: Starting User Runtime Directory /run/user/1000...
+Jun 11 13:10:19 DNS systemd[1]: Started User Runtime Directory /run/user/1000.
+Jun 11 13:10:19 DNS systemd[1]: Starting User Manager for UID 1000...
+Jun 11 13:10:19 DNS systemd: pam_unix(systemd-user:session): session opened for user debdns by (uid=0)
+Jun 11 13:10:19 DNS systemd[1634]: Reached target Sockets.
+Jun 11 13:10:19 DNS systemd[1634]: Reached target Paths.
+Jun 11 13:10:19 DNS systemd[1634]: Reached target Timers.
+Jun 11 13:10:19 DNS systemd[1634]: Reached target Basic System.
+Jun 11 13:10:19 DNS systemd[1]: Started User Manager for UID 1000.
+Jun 11 13:10:19 DNS systemd[1]: Started Session 29 of user debdns.
+Jun 11 13:10:19 DNS systemd[1634]: Reached target Default.
+Jun 11 13:10:19 DNS systemd[1634]: Startup finished in 29ms.
+Jun 11 13:10:19 DNS sshd[1643]: Received disconnect from 192.168.10.200 port 53418:11: disconnected by user
+Jun 11 13:10:19 DNS sshd[1643]: Disconnected from user debdns 192.168.10.200 port 53418
+Jun 11 13:10:19 DNS sshd[1631]: pam_unix(sshd:session): session closed for user debdns
+Jun 11 13:10:19 DNS systemd-logind[298]: Session 29 logged out. Waiting for processes to exit.
+Jun 11 13:10:19 DNS systemd[1]: session-29.scope: Succeeded.
+Jun 11 13:10:19 DNS systemd-logind[298]: Removed session 29.
+Jun 11 13:10:29 DNS systemd[1]: Stopping User Manager for UID 1000...
+Jun 11 13:10:29 DNS systemd[1634]: Stopped target Default.
+Jun 11 13:10:29 DNS systemd[1634]: Stopped target Basic System.
+Jun 11 13:10:29 DNS systemd[1634]: Stopped target Sockets.
+Jun 11 13:10:29 DNS systemd[1634]: Stopped target Paths.
+Jun 11 13:10:29 DNS systemd[1634]: Stopped target Timers.
+Jun 11 13:10:29 DNS systemd[1634]: Reached target Shutdown.
+Jun 11 13:10:29 DNS systemd[1634]: systemd-exit.service: Succeeded.
+Jun 11 13:10:29 DNS systemd[1634]: Started Exit the Session.
+Jun 11 13:10:29 DNS systemd[1634]: Reached target Exit the Session.
+Jun 11 13:10:29 DNS systemd: pam_unix(systemd-user:session): session closed for user debdns
+Jun 11 13:10:29 DNS systemd[1]: user@1000.service: Succeeded.
+Jun 11 13:10:29 DNS systemd[1]: Stopped User Manager for UID 1000.
+Jun 11 13:10:29 DNS systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Jun 11 13:10:29 DNS systemd[347]: run-user-1000.mount: Succeeded.
+Jun 11 13:10:29 DNS systemd[1]: run-user-1000.mount: Succeeded.
+Jun 11 13:10:29 DNS systemd[1]: user-runtime-dir@1000.service: Succeeded.
+Jun 11 13:10:29 DNS systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Jun 11 13:10:29 DNS systemd[1]: Removed slice User Slice of UID 1000.
+Jun 11 13:11:30 DNS sshd[1649]: Failed password for debdns from 192.168.10.200 port 53422 ssh2
+Jun 11 13:11:30 DNS sshd[1649]: Failed password for debdns from 192.168.10.200 port 53422 ssh2
+Jun 11 13:11:30 DNS sshd[1649]: Connection closed by authenticating user debdns 192.168.10.200 port 53422 [preauth]
+Jun 11 13:17:01 DNS CRON[1654]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 11 13:17:01 DNS CRON[1655]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 11 13:17:01 DNS CRON[1654]: pam_unix(cron:session): session closed for user root
